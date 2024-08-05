@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxd6nle5Buzh7e6oFVyS3f1jVFhl53nm3naA&s");
+            background-size: cover;
+        }
+        #sun{
+            height: 750px;
+            width: 1500px;
+            
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;   
+            transform: skew(30deg,30deg);         
+        }
+        #circle{
+            height: 150px;
+            width: 150px;
+            
+            border-radius: 50%;
+            background-image: url("https://tse4.mm.bing.net/th?id=OIP.By9EC2GI8Anj3Z29HFQ90AHaHN&pid=Api&P=0&h=220");
+            background-size: cover;
+           
+           
+        }
+        @keyframes rrr {
+            from{
+
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+        #sc1{
+            height: 25px;
+            width: 25px;
+            border: 2px;
+            border-radius: 50%;
+            border: 2px solid rgba(111, 97, 97, 0.499);
+            position: absolute;
+            bottom: 185px;
+            background-image: url("https://up.yimg.com/ib/th?id=OIP.jgdETQMil0ry99c8eH9GGgHaHT&pid=Api&rs=1&c=1&qlt=95&w=124&h=122");
+            background-size: cover;
+           
+            
+        }
+        #c1{
+            height: 200px;
+            width: 200px;
+            border: 2px solid rgba(111, 97, 97, 0.499);
+            border-radius: 50%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            animation: rrr 15s linear 0s infinite normal;
+            position: relative;
+        }
+        #c2{
+            height: 250px;
+            width: 250px;
+            border: 2px solid rgba(111, 97, 97, 0.499);
+            border-radius: 50%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            animation: rrr 30s linear 0s infinite normal;
+            position: relative;
+        }
+        #sc2{
+            height: 25px;
+            width: 25px;
+            border: 2px;
+            border-radius: 50%;
+         
+            position: absolute;
+            bottom: 235px;
+            background-image: url("https://up.yimg.com/ib/th?id=OIP.eT5tAkaAGV8OeSreuzT4XQHaHo&pid=Api&rs=1&c=1&qlt=95&w=100&h=102");
+            background-size: cover;
+        }
+        #sc3{
+            height: 25px;
+            width: 25px;
+            border: 2px;
+            border-radius: 50%;
+           
+            position: absolute;
+            bottom: 286px;
+            background-image: url("https://tse4.mm.bing.net/th?id=OIP.U3tn3bqDg_pp1j4jold1UwHaHS&pid=Api&P=0&h=220");
+            background-size: cover;
+        }
+        #c3{
+            height: 300px;
+            width: 300px;
+            border: 2px solid rgba(111, 97, 97, 0.499);
+            border-radius: 50%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            animation: rrr 45s linear 0s infinite normal;
+            position: relative;
+        }
+        #sc4{
+            height: 25px;
+            width: 25px;
+            border: 2px;
+            border-radius: 50%;
+        
+            position: absolute;
+            bottom: 335px;
+            background-image: url("https://up.yimg.com/ib/th?id=OIP.andzw8UfBGpSeJkH6jHUMgHaFj&pid=Api&rs=1&c=1&qlt=95&w=164&h=123");
+            background-size: cover;
+        }
+        #c4{
+            height: 350px;
+            width: 350px;
+            border: 2px solid rgba(111, 97, 97, 0.499);
+            border-radius: 50%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            animation: rrr 60s linear 0s infinite normal;
+            position: relative;
+        }
+        #sc5{
+            height: 25px;
+            width: 25px;
+            border: 2px;
+            border-radius: 50%;
+            
+            position: absolute;
+            bottom: 386px;
+            background-image: url("https://up.yimg.com/ib/th?id=OIP.jL2nZXeTxBs5XFd3cWSzZgAAAA&pid=Api&rs=1&c=1&qlt=95&w=129&h=121");
+            background-size: cover;
+        }
+        #c5{
+            height: 400px;
+            width: 400px;
+            border: 2px solid rgba(111, 97, 97, 0.499);
+            border-radius: 50%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            animation: rrr 75s linear 0s infinite normal;
+            position: relative;
+        }
+        #sc6{
+            height: 25px;
+            width: 25px;
+            border: 2px;
+            border-radius: 50%;
+       
+            position: absolute;
+            bottom: 438px;
+            background-image: url("https://up.yimg.com/ib/th?id=OIP.1OgDGp38OHPxLAAfid4jlwHaEK&pid=Api&rs=1&c=1&qlt=95&w=209&h=117");
+            background-size: cover;
+        }
+        #c6{
+            height: 450px;
+            width: 450px;
+            border: 2px solid rgba(111, 97, 97, 0.499);
+            border-radius: 50%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            animation: rrr 90s linear 0s infinite normal;
+            position: relative;
+        }
+        #sc7{
+            height: 25px;
+            width: 25px;
+            border: 2px;
+            border-radius: 50%;
+            
+            position: absolute;
+            bottom: 490px;
+            background-image: url("https://up.yimg.com/ib/th?id=OIP.KrV5zhj62Qbue8_mIHfvEgHaFj&pid=Api&rs=1&c=1&qlt=95&w=140&h=105");
+            background-size: cover;
+        }
+        #c7{
+            height: 500px;
+            width: 500px;
+            border: 2px solid rgba(111, 97, 97, 0.499);
+            border-radius: 50%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            animation: rrr 105s linear 0s infinite normal;
+            position: relative;
+        }
+
+        #sc8{
+            height: 25px;
+            width: 25px;
+            border: 2px;
+            border-radius: 50%;
+            
+            position: absolute;
+            bottom: 540px;
+            background-image: url("https://up.yimg.com/ib/th?id=OIP.luHFjA15Vzjr41KvvJMBdQHaHX&pid=Api&rs=1&c=1&qlt=95&w=120&h=119");
+            background-size: cover;
+        }
+        #c8{
+            height: 550px;
+            width: 550px;
+            border: 2px solid rgba(111, 97, 97, 0.499);
+            
+            border-radius: 50%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            animation: rrr 130s linear 0s infinite normal;
+            position: relative;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="sun">
+        <div id="c8">
+            <div id="sc8"></div>
+        <div id="c7">
+            <div id="sc7"></div>
+        <div id="c6">
+            <div id="sc6"></div>
+        <div id="c5">
+            <div id="sc5"></div>
+        <div id="c4">
+            <div id="sc4"></div>
+        <div id="c3">
+            <div id="sc3">
+
+            </div>
+
+        
+       <div id="c2">
+        <div id="sc2"></div>
+        
+        <div id="c1">
+            <div id="circle"></div>
+            <div id="sc1"></div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+        
+
+        
+
+        
+         
+    </div>
+    
+    
+</body>
+</html>
